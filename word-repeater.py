@@ -5,7 +5,7 @@ def main():
     word = input("Enter word to repeat: ")
     n = int(input("Enter number of times to repeat: "))
 
-    for i in range(1, n):
+    for i in range(0, n):
         print(word)
 
 
